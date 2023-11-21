@@ -1,0 +1,80 @@
+html {
+    background-color: white;
+}
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+}
+
+header {
+    text-align: center;
+    background-color: #333333;
+    padding: 0.5rem;
+}
+header h1 {
+    color: red;
+}
+header p {
+    color: white;
+}
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-row: 5% 90% 5%;
+    gap:0.5rem
+}
+.main-header {
+    background-color: #ddd;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+
+.art {
+   display: grid;
+   grid-template-rows: repeat(2, 1fr);
+   grid-template-columns: repeat(4, 1fr);
+   gap:0.5rem;
+  
+}
+.first-article {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-color: #fff;
+   /*padding: 0.5rem;*/
+}
+.article2 {
+    background-color:#fc3;
+    /*padding: 0.5rem;*/
+}
+.article3 {
+    background-color: #fa3;
+}
+article {
+  padding: 0.5rem;   
+}
+.article4 {
+    grid-column:span 2;
+    background-color: #f83;
+    /*padding: 0.5rem;*/
+}
+.main-footer {
+    background-color: #bbb;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+footer {
+    
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+}
+footer p a {
+    color: #DD5735;
+}

@@ -1,0 +1,48 @@
+html {
+    background-color: white;
+}
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+}
+
+header {
+    text-align: center;
+    background-color: #333333;
+    padding: 0.5rem;
+}
+header h1 {
+    color: red;
+}
+header p {
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 50vw;
+    margin: 1rem;
+}
+article p {
+    background-color:white;
+    padding: 1rem;
+}
+
+
+footer {
+    
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+}
+footer p a {
+    color: #DD5735;
+}

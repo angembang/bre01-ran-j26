@@ -1,0 +1,41 @@
+html {
+    background-color: #eee;
+}
+body {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #333333;
+    padding: 0.5rem;
+}
+header h1 {
+    color: red;
+}
+header p {
+    color: white;
+}
+
+article {
+    margin: 2rem
+}
+.head, .foot{
+    background-color: silver;
+    padding: 0.5rem;
+ 
+}
+
+footer {
+    
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+}
+footer p a {
+    color: #DD5735;
+}

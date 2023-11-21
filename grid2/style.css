@@ -1,0 +1,100 @@
+html {
+    background-color: white;
+}
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+}
+
+header {
+    text-align: center;
+    background-color: #333333;
+    padding: 0.5rem;
+}
+header h1 {
+    color: red;
+}
+header p {
+    color: white;
+}
+
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    color: #333333;
+    
+}
+.main-header {
+    background-color: #ddd;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+.main-footer {
+    background-color: #bbb;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+.like {
+    display: grid;
+    grid-template-areas: 
+}
+.like {
+    display: grid;
+    grid-template-areas:
+    "nav article article article section";
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #fc3;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+nav a {
+    text-decoration: none;
+    border: 1px solid #DD5735;
+    color: #DD5735;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+article {
+    grid-area: article;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+section {
+    grid-area: section;
+    background-color: #fa3;
+    padding: 0.5rem;
+    
+}
+section h3 {
+    white-space: pre-line;
+    word-spacing: 1.5em;
+}
+.icons {
+    /*text-align: center;*/
+    color: #DD5735;
+    font-size: 1.5rem;
+}
+
+footer {
+    
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+}
+footer p a {
+    color: #DD5735;
+}
